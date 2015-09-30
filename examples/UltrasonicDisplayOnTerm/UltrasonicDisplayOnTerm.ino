@@ -55,7 +55,7 @@ void loop()
 	RangeInInches = ultrasonic.MeasureInInches();
 	Serial.print(RangeInInches);//0~157 inches
 	Serial.println(" inch");
-	delay(250)
+	delay(250);
 	
 	RangeInCentimeters = ultrasonic.MeasureInCentimeters(); // two measurements should keep an interval
 	Serial.print(RangeInCentimeters);//0~400cm
